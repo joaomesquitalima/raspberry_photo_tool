@@ -1,0 +1,47 @@
+# Ambientes virtuais
+venv/
+ENV/
+env/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de log
+*.log
+
+# Configurações de IDEs
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.bak
+
+# Testes e cobertura
+htmlcov/
+.coverage
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribuição
+build/
+dist/
+*.egg-info/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Dados sensíveis
+*.env
+.env.*
